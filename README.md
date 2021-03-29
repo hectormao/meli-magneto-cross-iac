@@ -2,6 +2,10 @@
 
 En este reositorio se alamacenan los archivos de IAC para el API de Varificador Mutante para Magneto
 
+# Pre-requisitos
+
+- Instalar terraform 0.14.9 o superior
+
 ## Despliegue
 
 Para el despliegue de la infraestructura Cross se usa `terraform`, el código IAC esta almacenado en el directorio `terraform` que esta ubicado en la raíz del proyecto
