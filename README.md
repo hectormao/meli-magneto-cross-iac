@@ -28,3 +28,8 @@ terraform init
 cd terraform
 terraform plan -var-file tfvars/dev.tfvars
 ```
+
+## Importante
+
+- Despues del despliegue de los componentes en terraform es importante vincular el `stage` `dev` en el `usage plan`, con el fin que la `Api Key` creada quede vinculada a los endpoints
+- Despues del despliegue de los componentes es importante realizar un `deploy` manual de los recursos de la API en el `stage` `dev`
